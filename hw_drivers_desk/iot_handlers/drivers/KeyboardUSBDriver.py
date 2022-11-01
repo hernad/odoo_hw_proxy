@@ -24,7 +24,7 @@ from odoo.addons.hw_drivers_desk.main import iot_devices
 from odoo.addons.hw_drivers_desk.tools import helpers
 
 _logger = logging.getLogger(__name__)
-xlib = ctypes.cdll.LoadLibrary('libX11.so.6')
+#xlib = ctypes.cdll.LoadLibrary('libX11.so.6')
 
 
 class KeyboardUSBDriver(Driver):
